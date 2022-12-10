@@ -1,0 +1,49 @@
+.main {
+  width: 70%;
+  margin: auto;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.addedTodos {
+  margin-top: 10px;
+}
+.inputdata {
+  width: 80%;
+  transition: width 0.4s ease-in-out;
+  height: 50px;
+  border: 3px solid grey;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 1.3em;
+}
+button {
+  width: 100px;
+  height: 50px;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgb(48, 107, 163);
+  font-size: 1.5em;
+  color: white;
+  transition: 0.5s;
+}
+.createdTodos {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(168, 137, 137);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  overflow: auto;
+}
+.tododata {
+  line-height: 50px;
+  font-size: 1.2em;
+}
